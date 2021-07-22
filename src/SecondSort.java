@@ -12,8 +12,6 @@ public class SecondSort {
 		String[] inputarr = input.split(" ");
 		arr[0] = Integer.parseInt(inputarr[0]);
 		arr[1] = Integer.parseInt(inputarr[1]);
-		arr[2] = Integer.parseInt(inputarr[2]);
-		System.out.println("씨발");
 		Arrays.sort(arr);
 		System.out.println(arr[1]);
 	}
